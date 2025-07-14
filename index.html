@@ -1,0 +1,40 @@
+<!DOCTYPE html> <!-- pove brskalniku, da gre za HTML5 dokument -->
+<html lang="sl"> <!-- jezik strani: slovenščina -->
+<head>
+    <meta charset="UTF-8"> <!-- znakovna kodna tabela (da delujejo šumniki) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- za prilagajanje na mobilnih napravah -->
+    <title>Moja trgovina</title> <!-- naslov, ki se prikaže v zavihku brskalnika -->
+    <link rel="stylesheet" href="stil.css"> <!-- povezava do datoteke za oblikovanje (CSS) -->
+</head>
+<body>
+
+    <!-- ✅ 2. Zgornji del strani (header) -->
+    <header> <!-- glava strani -->
+        <h1>Dobrodošli v trgovini z dodatki za dom</h1> <!-- naslov strani -->
+        <nav> <!-- navigacija -->
+            <ul> <!-- neurejen seznam povezav -->
+                <li><a href="index.html">Domov</a></li> <!-- povezava na domačo stran -->
+                <li><a href="izdelki.html">Izdelki</a></li> <!-- povezava na stran z izdelki -->
+                <li><a href="kosarica.html">Košarica</a></li> <!-- povezava na košarico -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ✅ 3. Glavni del strani (main) -->
+    <main> <!-- glavni vsebinski del -->
+        <section> <!-- vsebinski blok -->
+            <h2>Naši izdelki za vaš dom</h2> <!-- podnaslov -->
+            <p>Izberite med skrbno izbranimi dodatki za vaš dom – od kuhinjskih aparatov do pohištva.</p> <!-- odstavek -->
+            <a href="izdelki.html" class="gumb">Poglej ponudbo</a> <!-- gumb (povezava) -->
+        </section>
+    </main>
+
+    <!-- ✅ 4. Spodnji del strani (footer) -->
+    <footer> <!-- noga strani -->
+        <p>&copy; 2025 Moja trgovina. Vse pravice pridržane.</p> <!-- avtorske pravice -->
+    </footer>
+
+    <!-- ✅ 5. Vključitev JavaScript datoteke -->
+    <script src="skripta.js"></script> <!-- povezava na skripto, če bomo kasneje dodali funkcionalnosti -->
+</body>
+</html>
